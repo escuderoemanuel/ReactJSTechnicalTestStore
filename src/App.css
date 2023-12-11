@@ -1,3 +1,16 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  --primary-color: rgb(226, 226, 226);
+  --background-color: #242424;
+
+  --brandeis-blue: #0066ff;
+  --violet: #5c2751;
+}
+
+
 #root {
   box-sizing: border-box;
   margin: 0 auto;
@@ -5,16 +18,9 @@
   text-align: center;
 }
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+html {
+  background-color: var(--background-color);
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  color: rgb(226, 226, 226);
-  background-color: #242424;
-  brandeis-blue: #0066ff;
-  violet: #5c2751;
 }
 
 .bodyContainer {

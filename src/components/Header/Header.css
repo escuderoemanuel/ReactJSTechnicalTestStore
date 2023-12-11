@@ -8,8 +8,13 @@
   color: rgb(226, 226, 226);
 }
 
-.tasksIcon {
-  width: 50px;
-  height: auto;
-  transform: rotate(5deg);
+.headerTitle {
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.titleSpan {
+  color: violet;
+  font-weight: 500;
 }
