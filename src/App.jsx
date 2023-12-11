@@ -1,22 +1,17 @@
 import './App.css'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
-import { Products } from './components/Products/Products'
-import { products } from './mocks/products.json'
+import Main from './components/Main/Main'
 
 
 function App() {
 
   return (
-    <div className='bodyContainer'>
+    <>
       <Header />
-      <main className='mainContainer'>
-
-        <Products products={products} />
-
-      </main>
+      <Main />
       <Footer />
-    </div>
+    </>
   )
 }
 
