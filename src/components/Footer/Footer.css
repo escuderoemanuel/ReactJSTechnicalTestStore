@@ -1,0 +1,42 @@
+.footer {
+  font-size: 0.82em;
+  font-weight: light;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.footer:before {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: whitesmoke;
+}
+
+.footerContainer {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footerContainer p {
+  font-weight: light;
+}
+
+.logoDev {
+  width: 26px;
+  height: auto;
+  transition: all ease-in-out 200ms;
+}
+
+.logoDev:hover {
+  transform: rotate(8deg);
+}
